@@ -1,0 +1,30 @@
+even=[]
+odd=[]
+for i in range(0,100):
+    if i%2 == 0:
+        even.append(i)
+    else:
+        odd.append(i)
+even,odd
+
+
+
+company =['amazon','Flipkart','Myntra','excelr','samsung','apple']
+company
+for i in company:
+    print('www.'+i+'.com')
+
+
+word1 = 'Python'
+word2 = 'Class'
+word1+word2
+
+lst=[1,2,5,6,9,7,4,5,6,55,4,7,8,9,154,4,454]
+for i in lst:
+    print(i**2)
+
+lst=[1,2,5,6,9,7,4,5,6,55,4,7,8,9,154,4,454]
+for i in lst:
+    print(i)
+for i in lst:
+    print(i**2)
